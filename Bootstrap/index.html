@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blog de Música</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body class="blog-musica">
+    <div class="container">
+        <!-- Cabezera -->
+        <header class="row clearfix pt-md-5">
+                <div class="col-4 py-5 m-2 col-md-2 py-md-2 my-md-3 pb-lg-1 float-left">
+                    <a href="#">
+                        <img class="w-100 h-75" src="img/logo.png">
+                    </a>
+                </div>
+                <!-- Creando la botonera con iconos en un grupo -->
+                <div class="col-12 text-center col-md-2 offset-md-7 mt-md-4 pt-md-5 mt-lg-5">
+                    <div class="btn-group float-md-right">
+                        <a class="btn btn-secondary m-0 p-0" href="#"><img src="img/youtube.png" alt=""></a>
+                        <a class="btn btn-secondary m-0 p-0" href="#"><img src="img/facebook.png" alt=""></a>
+                        <a class="btn btn-secondary m-0 p-0" href="#"><img src="img/instagram.png" alt=""></a>
+                        <a class="btn btn-secondary m-0 p-0" href="#"><img src="img/pinterest.png" alt=""></a>
+                        <a class="btn btn-secondary m-0 p-0" href="#"><img src="img/twitter.png" alt=""></a>
+                    </div>
+                </div>
+        </header>
+        <!-- Barra de menu luego del header -->
+            <div class="row barra">
+                <div class="col-12">
+                    <nav class="nav navbar-expand-md navbar-light">
+                            <ul class="navbar-nav text-center justify-content-around w-100 font-weight-bold">
+                                <li class="nav-item">
+                                    <a class="nav-link my-2 active" href="#">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link my-2" href="#">Artistas</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link my-2" href="#">Grupos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link my-2" href="#">Top 10</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link my-2" href="#">Letras</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link my-2" href="#">Acordes</a>
+                                </li>
+                            </ul>
+                    </nav>
+                </div>
+            </div>
+            <!-- comienzo del blog -->
+        <div class="container">
+            <div class="row mt-4 p-2 blog-cont">
+                <div class="col-12 col-md-12 col-lg-9">
+                    <!-- Primer Articulo con imagen a la derecha -->
+                    <div class="row py-3">
+                        <div class="col-12 col-md-8 pb-3">
+                            <a href="#"><h3 class="font-weight-bold text-dark">Los Prisioneros (1983-2006)</h3></a>
+                            <p>El alcance de sus canciones, la marca indeleble de su arenga social y la simplicidad pegajosa de sus melodías hicieron de Los Prisioneros una banda de características únicas en la historia del rock chileno. Nunca antes un conjunto local había combinado con tanta eficacia los códigos del pop y el rock con un mensaje político firme y urgente... </p>
+                             <!-- Boton leer mas para un modal con cabezera -->
+                            <button type="button" class="btn btn-outline-warning" data-toggle="modal" data-target="#losPrisioneros">
+                                    Leer más...
+                            </button>
+                            <!-- Modal del primer articulo -->
+                            <div class="modal fade" id="losPrisioneros" tabindex="-1" role="dialog" aria-labelledby="TituloCentral1" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 class="modal-title" id="TituloCentral1">Los Prisioneros (1983-2006)</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p class="text-center">
+                                            Renegamos del cualquier color <br>
+                                            Se llame religión <br>
+                                            se llame nacionalidad <br>
+                                            no queremos representatividad <br>
+                                            Los Prisioneros, "No necesitamos banderas" <br>
+                                        </p>
+                                        <p class="text-justify">
+                                            El alcance de sus canciones, la marca indeleble de su arenga social y la simplicidad pegajosa de sus melodías hicieron de Los Prisioneros una banda de características únicas en la historia del rock chileno. Nunca antes un conjunto local había combinado con tanta eficacia los códigos del pop y el rock de origen británico, con un mensaje político firme y urgente, enunciado al margen de las ideologías partidistas. Un éxito todavía más sorprendente si se toma en cuenta que el trío floreció en plena dictadura militar, período en el que la difusión de la música juvenil estuvo coartada por una censura sistemática e incontables dificultades.
+                                        </p>    
+                                        <p class="text-justify">
+                                            Los Prisioneros ha sido uno de los grupos más vendedores de la industria discográfica chilena y la popularidad de sus canciones se extiende por toda Latinoamérica. El germen de su formación fue la amistad que desde la adolescencia unió a Jorge González (voz y bajo), Claudio Narea (guitarra) y Miguel Tapia (batería). Tres compañeros de curso en el Liceo 6 Andrés Bello de la comuna de San Miguel, que compartían el interés por la música de bandas de rock extranjeras como Kiss, The Beatles y The Clash. La banda constituida por los tres amigos debutó bajo el nombre Los Prisioneros en julio de 1983, en un festival organizado por el Liceo Miguel León Prado.
+                                        </p>    
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Imagen del primer aarticulo -->
+                        <div class="col-12 col-md-4">
+                            <img class="w-100" src="img/los_prisioneros.jpg" alt="">
+                        </div>
+                        <!-- Ingreso comentaria para el primer articulo -->
+                        <div class="row py-4 ml-1">
+                            <div class="col-2 col-md-1">
+                                <i class="fas fa-user fa-3x"></i>
+                            </div>
+                            <div class="col-9 col-md-11">
+                                <textarea name="blog" class="form-control" cols="79" rows="2">Comentario</textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin primer artículo -->
+
+
+                    <!-- Segundo artículo con imagen a la izquierda -->
+                    <div class="row py-3">
+                        <div class="col-12 col-md-4">
+                            <img class="w-100" src="img/jorge_gonzalez.jpg" alt="">
+                        </div>
+                        <div class="col-12 col-md-8 pb-3">
+                            <a href="#"><h3 class="font-weight-bold text-dark">Jorge González</h3></a>
+                            <p>Uno de los más carismáticos rockeros de la historia de la música popular chilena, Jorge González fue el compositor, bajista y cantante de Los Prisioneros, el trío que formó junto a Miguel Tapia y Claudio Narea en 1983. Ha desarrollado también una carrera como solista y decenas de colaboraciones con otros músicos.</p>
+                            <!-- Botón leer más para modal segundo artículo -->
+                            <button type="button" class="btn btn-outline-warning" data-toggle="modal" data-target="#jorgeGonzalez">
+                                    Leer más...
+                            </button>
+                            <!-- inicio modal segundo articulo -->
+                            <div class="modal fade" id="jorgeGonzalez" tabindex="-1" role="dialog" aria-labelledby="TituloCentral2" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 class="modal-title" id="TituloCentral2">Los Prisioneros (1983-2006)</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p class="text-justify">
+                                            Antes de cumplir los veinte años de edad, Jorge González comenzó a articular de manera autodidacta un estilo que habría de marcar una época en la música chilena. El atrevimiento de sus versos, la simpleza armónica de sus melodías, las punzantes reflexiones sociales y la actitud desafiante -que a menudo se ha traducido en controversias públicas, generalmente con los medios de comunicación- son rasgos que quedaron plasmados en los grandes éxitos de Los Prisioneros, incluyendo "El baile de los que sobran", "La voz de los '80" y "Paramar", todos de su autoría.
+                                        </p>
+                                        <p class="text-justify">
+                                            Tras la primera disolución de Los Prisioneros, en 1991, González fue desplegando sus variados intereses musicales en una carrera solista de estaciones igualmente diversas, incluyendo el pop amable y espiritual de su debut solista en Jorge González (1993), la experimentación de El futuro se fue (1994) y una postura de renovada acidez en Mi destino. Confesiones de una estrella de rock (1999). Su interés por el sonido tecno y varios años de residencia en Nueva York (donde cursó estudios de Sonido) durante la década de los noventa, lo acercaron a destacados exponentes de la música electrónica, fruto de lo cual se gestaron colaboraciones con el prestigioso músico alemán Uwe Schmidt (Señor Coconut), el grupo chileno-alemán Sieg Über Die Sonne y el chileno Vicente Sanfuentes (Original Hamster), además del dúo Gonzalo Martínez, formado junto a Martín Schopf (Dandy Jack).
+                                        </p>    
+                                        <p class="text-justify">
+                                            La atribulada reunión de Los Prisioneros entre los años 2001 y 2006, dejó a González convencido de las virtudes del trabajo solista, que ha continuado realizando a través de proyectos como Los Updates.
+                                        </p>    
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Ingreso de comentarios para el segundo articulo -->
+                        <div class="row py-4 ml-1">
+                            <div class="col-2 col-md-1">
+                                <i class="fas fa-user fa-3x"></i>
+                            </div>
+                            <div class="col-9 col-md-11">
+                                <textarea name="blog" class="form-control" cols="79" rows="2">Comentario</textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- inicio bloque de busqueda -->
+                <form class="form d-none d-lg-block col-lg-3">
+                    <!-- input de texto con un icono de busqueda -->
+                    <div class="form-group mx-md-1 mb-4 py-3">
+                        <div class="input-group mb-2">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text"><i class="fas fa-search fa-1x"></i></div>
+                            </div>
+                            <input type="text" class="form-control" id="inputBusqueda" placeholder="Buscar por...">
+                        </div>
+                    </div>
+                    <hr>
+                    <!-- Listado con preferencias de busqueda -->
+                    <div class="list-group">
+                            <button type="button" class="list-group-item list-group-item-action">Artista</button>
+                            <button type="button" class="list-group-item list-group-item-action">Album</button>
+                            <button type="button" class="list-group-item list-group-item-action">Sello</button>
+                            <button type="button" class="list-group-item list-group-item-action">Año</button>
+                            <button type="button" class="list-group-item list-group-item-action">Estilo</button>
+                            <button type="button" class="list-group-item list-group-item-action">Vocalista</button>
+                            <button type="button" class="list-group-item list-group-item-action">Tema de Canción</button>
+                            <button type="button" class="list-group-item list-group-item-action">País</button>
+                            <button type="button" class="list-group-item list-group-item-action">Idioma</button>
+                            <button type="button" class="list-group-item list-group-item-action">Instrumentación</button>
+                            <button type="button" class="list-group-item list-group-item-action">Tributos</button>
+                            <button type="button" class="list-group-item list-group-item-action">Disco de oro</button>
+                            <button type="button" class="list-group-item list-group-item-action">Disco de platino</button>
+                            <button type="button" class="list-group-item list-group-item-action">En vivo</button>
+                            <button type="button" class="list-group-item list-group-item-action">Abecedario</button>
+                        </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Javascript para el funcionamiento del modal -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

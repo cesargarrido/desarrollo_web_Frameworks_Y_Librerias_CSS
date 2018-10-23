@@ -1,0 +1,142 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.btn-small{
+  font-size: .6rem;
+}
+.menu{
+  margin-top: 1rem;
+}
+.logo{
+  width: 100%;
+}
+.cont-logo{
+  width: 100%;
+  margin-top: 1.5rem;
+  margin-left: 7rem;
+  border-radius: 1rem;
+}
+.body{
+  padding: 0;
+  
+}
+.slogan{
+  padding-top: 2rem;
+  font-size: 2.5rem;
+}
+.icon-social{
+  padding: 0.5rem;
+}
+.img-cont{
+  margin: .6rem;
+}
+.img-principal{
+  width: 100%;
+  border-bottom: 3px solid #080808;
+  border-right: 3px solid #353434;
+  transform: rotateX(-5deg) rotateY(-5deg);
+}
+.img-blog{
+  padding-top: 1rem;
+  padding-right: 0.5rem;
+  width: 40%;
+}
+.datos-blog{
+  border-radius: 1rem;
+  margin: 0.3rem;
+}
+.titulo-blog{
+  margin-left: 1rem;
+}
+.img-perfil{
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+.boton-form{
+  margin-bottom: 3rem;
+}
+
+.marco-inicio{
+  width: 100%;
+  height: 10rem;
+}
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+  .parallax{
+    position: fixed;
+  }
+  @media only screen and (max-width : 992px) {
+    .parallax-container .section {
+      top: 40%;
+    }
+    #index-banner .section {
+      top: 10%;
+    }
+    .btn-small{
+      font-size: .2rem!important;
+      margin-left: 0.2rem;
+      padding-left: 0.2rem;
+    }
+    .logo{
+      width: 100%;
+      margin: 0.3rem;
+      padding: 0rem;
+    }
+    .cont-logo{
+      margin-top: 1rem;
+      margin-left: 1.5rem;
+     
+    }
+       .slogan{
+         margin-top: 0rem;
+      font-size: 1.6rem;
+    }
+  }
+  
+  @media only screen and (max-width : 600px) {
+    
+    .menu{
+      margin-top: 0.5rem;
+    }
+    .btn-small{
+      font-size: .8rem;
+      margin-left: 0.2rem;
+      padding-left: 0.2rem;
+    }
+    .logo{
+      width: 100%;
+      margin: 0.3rem;
+      padding: 0rem;
+    }
+    .cont-logo{
+      margin-top: 1rem;
+      margin-left: 1.5rem;
+     
+    }
+    .slogan{
+      margin-top: 0rem;
+      font-size: 1.6rem;
+    }
+    .img-blog{
+      padding-top: 1rem;
+      padding-right: 0.5rem;
+      width: 100%;
+    }
+    .img-perfil{
+      padding: 1rem;
+      border-radius: 100%;
+    }
+  }
+  
+
+
+

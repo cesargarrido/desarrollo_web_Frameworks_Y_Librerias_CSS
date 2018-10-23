@@ -1,0 +1,31 @@
+
+ .blog-musica{
+    background: brown;
+}
+header{
+    background-color: beige;
+    border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.barra{
+    background-color: sandybrown;
+    border-radius: 0.5rem;
+}
+
+.nav-item:hover{
+    background-color: white;
+    color: black;
+}
+.container{
+    padding: 0;
+}
+.blog-cont{
+    background-color: beige;
+    border-radius: 0.5rem;
+}
+
+
+
+
+
+
